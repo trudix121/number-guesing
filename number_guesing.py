@@ -23,7 +23,7 @@ if x == random_number :
    print("BRAVO AI NIMERIT NUMARUL")
 else : 
   x = input("mai incearca! Ultima incercare:")
-  print("AI GRESIT TOT , PROSTULE , NUMARUL ERA:" + random_number)
+  print("AI GRESIT TOT ,NUMARUL ERA:" + random_number)
   
   
   
