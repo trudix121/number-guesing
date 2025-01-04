@@ -1,58 +1,41 @@
 import random
 
-
-
-
-#creat random number
-
+# Create a random number
 random_number = random.choice("123456789")
-maimicde5 = 5
-maimarede5 = 5
+less_than_5 = 5
+greater_than_5 = 5
 
-if int(random_number) <= 5 :  
-   x =input("acest numar este mai mic de 5 , alege numarul: ")
-if x ==random_number :
-      print("BRAVO AI NIMERIT NUMARUL")
-else : 
-      input("mai incearca! Mai ai 2 incercari:")
-if x == random_number :
-      print("BRAVO AI NIMERIT NUMARUL")
-else : 
- x = input("mai incearca! mai ai o incercare:")
-if x == random_number :
-   print("BRAVO AI NIMERIT NUMARUL")
-else : 
-  x = input("mai incearca! Ultima incercare:")
-  print("AI GRESIT TOT ,NUMARUL ERA:" + random_number)
-  
-  
-  
-  
-  if int(random_number) >= 5 : 
-     y =input("Numarul este mai mare dechat 5! : ")
-  if y == random_number :
-      print("BRAVO AI NIMERIT NUMARUL")
-  else : y=input("mai incearca! mai ai 3 incercari")
-  if y ==  random_number :
-        print("BRAVO AI NIMERIT NUMARUL")
-  else: y=input("mai incearca! mai ai 2 incercari")
-  if y == random_number : 
-       print("BRAVO AI NIMERIT NUMARUL")
-  else:
-    y=input("Mai incearca1 mai ai o incercare")
-  if y == random_number :
-       print("BRAVO AI NIMERIT NUMARUL")
-  else:
-      print("PROSTULE , NUMARU ERA:" + random_number)
-      
-      
-          
-      
-  
+if int(random_number) <= 5:
+    x = input("This number is less than 5, choose a number: ")
+if x == random_number:
+    print("CONGRATULATIONS! YOU GUESSED THE NUMBER")
+else:
+    input("Try again! You have 2 more attempts:")
+if x == random_number:
+    print("CONGRATULATIONS! YOU GUESSED THE NUMBER")
+else:
+    x = input("Try again! You have one more attempt:")
+if x == random_number:
+    print("CONGRATULATIONS! YOU GUESSED THE NUMBER")
+else:
+    x = input("Try again! Last attempt:")
+    print("YOU GOT IT WRONG, THE NUMBER WAS: " + random_number)
 
-
-
-
-
-
-
+if int(random_number) >= 5:
+    y = input("The number is greater than 5! : ")
+if y == random_number:
+    print("CONGRATULATIONS! YOU GUESSED THE NUMBER")
+else:
+    y = input("Try again! You have 3 more attempts:")
+if y == random_number:
+    print("CONGRATULATIONS! YOU GUESSED THE NUMBER")
+else:
+    y = input("Try again! You have 2 more attempts:")
+if y == random_number:
+    print("CONGRATULATIONS! YOU GUESSED THE NUMBER")
+else:
+    y = input("Try again! You have one more attempt:")
+if y == random_number:
+    print("CONGRATULATIONS! YOU GUESSED THE NUMBER")
+else:
+    print("WRONG, THE NUMBER WAS: " + random_number)
